@@ -12,6 +12,12 @@
       "description": "Spec authoring and design tools for structured YAML specifications",
       "source": "./plugins/specforge",
       "category": "development"
+    },
+    {
+      "name": "domain-experts",
+      "description": "Specialist consultant personas for structured critique and domain-specific analysis",
+      "source": "./plugins/domain-experts",
+      "category": "productivity"
     }
   ]
 }
