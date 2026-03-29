@@ -6,5 +6,12 @@
     "name": "Adam McKenna",
     "email": "adam@mysticflounder.ai"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "specforge",
+      "description": "Spec authoring and design tools for structured YAML specifications",
+      "source": "./plugins/specforge",
+      "category": "development"
+    }
+  ]
 }

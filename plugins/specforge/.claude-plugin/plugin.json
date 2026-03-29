@@ -1,0 +1,8 @@
+{
+  "name": "specforge",
+  "description": "Spec authoring and design tools for structured YAML specifications",
+  "author": {
+    "name": "Adam McKenna",
+    "email": "adam@mysticflounder.ai"
+  }
+}
