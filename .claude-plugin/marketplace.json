@@ -18,6 +18,12 @@
       "description": "Specialist consultant personas for structured critique and domain-specific analysis",
       "source": "./plugins/domain-experts",
       "category": "productivity"
+    },
+    {
+      "name": "super-cow-powers",
+      "description": "Debian packaging skill — conventions, templates, and validation checklists with deep dh-virtualenv support",
+      "source": "./plugins/super-cow-powers",
+      "category": "development"
     }
   ]
 }
