@@ -24,6 +24,12 @@
       "description": "Debian packaging skill — conventions, templates, and validation checklists with deep dh-virtualenv support",
       "source": "./plugins/super-cow-powers",
       "category": "development"
+    },
+    {
+      "name": "session-wrap",
+      "description": "End-of-session knowledge preservation — reviews the conversation and saves anything worth remembering to the auto-memory system",
+      "source": "./plugins/session-wrap",
+      "category": "productivity"
     }
   ]
 }

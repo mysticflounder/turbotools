@@ -1,0 +1,8 @@
+{
+  "name": "session-wrap",
+  "description": "End-of-session knowledge preservation — reviews the conversation and saves anything worth remembering to the auto-memory system",
+  "author": {
+    "name": "Adam McKenna",
+    "email": "adam@mysticflounder.ai"
+  }
+}
