@@ -73,11 +73,10 @@ The `last-handoff.md` file always goes in `working/` (step 5).
    
    Look for `docs/` directories, `strategy.md`, `*.spec.md`, and similar files in the project root. Only update docs that already exist and are clearly stale — don't create new docs unless the session produced a substantial deliverable with no home.
 
-7. **Write `last-handoff.md`** in the project's memory directory. This file is read by the session-start-daily hook to inject context into the next session. Write it to `working/last-handoff.md` (it's ephemeral — gets archived after 48h). Contents should be a brief, actionable summary:
-   - What was being worked on (and where it left off)
-   - Any blockers or open questions
-   - What the next step would be
-   - If work spanned multiple projects (e.g., launched from ~/misc but worked on ~/pythonprojects), note which projects were touched so the next session knows where to look
+7. **Write `last-handoff.md`** in the project's memory directory. This file is read by the session-start-daily hook to inject context into the next session. Write it to `working/last-handoff.md` (it's ephemeral — gets archived after 48h). Structure:
+   1. **Notable progress** — what was accomplished this session (bullet points)
+   2. **Blockers, issues, open questions** — anything unresolved or stuck
+   3. **Next steps** — up to 5 concrete next actions, in priority order
    Keep it under 20 lines. No frontmatter needed — just plain text.
 
 8. **Commit and push any updated docs** — if the current working directory is a git repo, stage and commit any modified or new files under `docs/` (specs, plans, etc.) that were produced or updated this session (including step 6), then push to origin. Use a commit message like `docs: session wrap <YYYY-MM-DD>`. Skip if no docs changed.
@@ -92,4 +91,4 @@ The memory directory is always a sibling to `MEMORY.md`. Look for it at `~/.clau
 
 Be selective. One well-written memory is worth ten vague ones. If you're unsure whether something is worth saving, ask yourself: would the next session genuinely benefit from knowing this, or would it just add noise?
 
-<!-- created_from: 931f239 -->
+<!-- created_from: 5bf8bf7 -->
