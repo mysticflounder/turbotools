@@ -1,8 +1,0 @@
-{
-  "name": "super-cow-powers",
-  "description": "Debian packaging skill — conventions, templates, and validation checklists with deep dh-virtualenv support for Python projects",
-  "author": {
-    "name": "Adam McKenna",
-    "email": "adam@mysticflounder.ai"
-  }
-}

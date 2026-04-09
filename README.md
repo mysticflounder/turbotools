@@ -39,20 +39,9 @@ Spec authoring and design tools for structured YAML specifications.
 |-------|---------|-------------|
 | Specforge Design | `/specforge:specforge-design` | Converts a 1-3 sentence module description into a valid specforge YAML spec through interactive interview. |
 
-### super-cow-powers
+## See also
 
-Debian packaging skill with deep dh-virtualenv support for Python projects.
-
-| Skill | Command | Description |
-|-------|---------|-------------|
-| Debian Packaging | `/super-cow-powers:debian-packaging` | Full debian/ directory creation, control/rules editing, .deb building with dh-virtualenv or dpkg-buildpackage. Includes reference docs on Debian policy, dh-virtualenv patterns, and systemd integration, plus 15 debian/ templates. |
-
-**Bundled references:**
-- `debian-policy-summary.md` — Debian policy quick reference
-- `dh-virtualenv-patterns.md` — dh-virtualenv best practices
-- `systemd-integration.md` — systemd service packaging
-
-**Bundled templates:** changelog, control, copyright, default, dirs, install, links, lintian-overrides, logrotate, postinst, postrm, prerm, rules, service, source-format
+- **[super-cow-powers](https://github.com/mysticflounder/super-cow-powers)** — Debian packaging skill with deep dh-virtualenv support. Available as its own marketplace.
 
 ## Plugin structure
 
